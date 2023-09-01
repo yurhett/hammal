@@ -1,10 +1,9 @@
 name = "hammal"
-type = "webpack"
 account_id = "your account_id"
 workers_dev = true
-route = ""
-zone_id = ""
 webpack_config = "webpack.config.js"
+compatibility_date = "2023-07-08"
+main = "src/index.ts"
 kv_namespaces = [
 	 { binding = "HAMMAL_CACHE", id = "you kv id" }
 ]
